@@ -1,0 +1,45 @@
+.container_SDLG {
+    border: 5px groove rgb(0, 0, 0);
+
+    height: 20vh;
+    width: 40vw;
+}
+.child_SDLG {
+    
+    border: 5px inset black;
+    height: 20vh;
+    width: 40vw;
+
+    font-size: 200%;
+
+    transition: .3s;
+    color: rgba(255, 255, 255, 0);
+}
+.child_SDLG:hover {
+    border: 20px inset black;
+    background: linear-gradient(black,#ff0000);
+    font-size: 350%;
+    color: yellow;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media screen and (max-width: 912px) {
+    .container_SDLG {
+        border: 5px groove rgb(0, 0, 0);
+    
+        height: 20vh;
+        width: 70vw;
+    }
+    
+    .child_SDLG {
+        border: 20px inset black;
+        background: linear-gradient(black,#ff0000);
+        font-size: 350%;
+        color: yellow;
+        min-width: 70vw;
+
+
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
