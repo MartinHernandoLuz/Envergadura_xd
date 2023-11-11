@@ -16,15 +16,22 @@
     color: rgba(255, 255, 255, 0);
 }
 .child_BEELCE:hover {
-    border: 20px inset black;
-    background: linear-gradient(black,#ff0000);
+    border: 2px inset black;
+   
+    background: url(/beelce_page/beelce_imgs/11_MrBeelce.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
     font-size: 350%;
-    color: yellow;
+    font-weight: 800;
+    text-shadow: 4px 4px 3px black;
+    color: rgb(255, 0, 0);
 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-@media screen and (max-width: 912px) {
+@media screen and (max-width: 1070px) {
     .container_BEELCE {
         border: 5px groove rgb(0, 0, 0);
     
@@ -33,13 +40,46 @@
     }
     
     .child_BEELCE {
-        border: 20px inset black;
-        background: linear-gradient(black,#ff0000);
-        font-size: 350%;
-        color: yellow;
+        border: 2px inset black;
+   
+        background: url(/beelce_page/beelce_imgs/11_MrBeelce.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
         min-width: 70vw;
+       
+        font-size: 350%;
+        font-weight: 500;
+        text-shadow: 4px 4px 3px black;
+        color: rgb(255, 0, 0);
+    
+        font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
 
 
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    .child_BEELCE:hover {
+        border: 2px inset black;
+       
+        background: url(/beelce_page/beelce_imgs/11_MrBeelce.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+       
+        font-size: 350%;
+        font-weight: 500;
+        text-shadow: 4px 4px 3px black;
+        color: rgb(255, 0, 0);
+    
+        font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
+
+@media screen and (max-width: 690px){
+    .child_BEELCE {
+        font-size: 200%;
+    }
+    .child_BEELCE:hover{
+        font-size: 200%;
     }
 }
