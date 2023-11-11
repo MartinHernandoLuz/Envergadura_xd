@@ -55,7 +55,7 @@ boton.addEventListener('click', ()=>{
             bodyID.style.backgroundRepeat = "no-repeat"
             bodyID.style.height = "100vh"
 
-            alert("no deberías estar viendo esto")
+            
             break
         default:
             break

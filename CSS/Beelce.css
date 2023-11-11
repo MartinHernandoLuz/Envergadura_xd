@@ -18,7 +18,7 @@
 .child_BEELCE:hover {
     border: 2px inset black;
    
-    background: url(/beelce_page/beelce_imgs/11_MrBeelce.jpg);
+    background: url(/beelce_page/beelce_imgs/_11_MrBeelce.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -42,7 +42,7 @@
     .child_BEELCE {
         border: 2px inset black;
    
-        background: url(/beelce_page/beelce_imgs/11_MrBeelce.jpg);
+        background: url(/beelce_page/beelce_imgs/_11_MrBeelce.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -61,7 +61,7 @@
     .child_BEELCE:hover {
         border: 2px inset black;
        
-        background: url(/beelce_page/beelce_imgs/11_MrBeelce.jpg);
+        background: url(/beelce_page/beelce_imgs/_11_MrBeelce.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
